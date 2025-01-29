@@ -1,0 +1,207 @@
+/* General Styles */
+body {
+    background-color: rgb(34, 40, 49);
+    margin: 0px;
+}
+
+/* Nav Styles */
+nav {
+    background-color: rgb(118, 171, 174);
+    border-radius: 20px;
+    display: flex;
+    /* Flex items are evenly distributed, with the first at margin start and the last at margin end*/
+    justify-content: space-between; 
+    padding: 10px;
+    margin: 10px;
+    font-family: "Questrial", serif;
+    color: rgb(238, 238, 238);
+}
+
+nav p, nav a {
+}
+
+nav a {
+    color: blue
+}
+
+nav a:hover {
+    color: red;
+}
+
+/* Footer Styles */
+footer {
+    display: flex;
+    height: 50px;
+    justify-content: center;
+    align-items: center;
+    font-family: "Questrial", serif;
+    color: black;
+    background-color:  rgb(238, 238, 238);
+    border-radius: 20px;
+    margin: 10px;
+}
+
+footer a {
+    color: blue
+}
+
+footer a:hover {
+    color: red;
+}
+
+/* Splash Section */
+.splash {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    box-shadow: rgba(0, 0, 0, 0.19) 0px 10px 20px, rgba(0, 0, 0, 0.23) 0px 6px 6px;
+}
+
+.splash h1 {
+    font-family: "Questrial", serif;
+    color: rgb(238, 238, 238);
+    font-weight: 400;
+    font-size: 70px;
+}
+
+.splash img {
+    border-radius: 15%;
+}
+
+.splash p {
+    font-family: "Questrial", serif;
+    color: rgb(238, 238, 238);
+    max-width: 700px;
+    font-size: large;
+}
+
+/* Horizontal Rules */
+hr {
+    border-width: 1px;
+    border-style: solid;
+    border-color: rgb(238, 238, 238);
+    margin: 10px;
+}
+
+/* Sections */
+section {
+    border: 1px solid rgb(238, 238, 238);
+    border-radius: 20px;
+    padding: 30px;
+    margin: 10px;
+}
+
+/* Section Headings */
+section h2 {
+    font-family: "Questrial", serif;
+    color: rgb(238, 238, 238);
+    font-weight: 400;
+    font-size: 40px;
+}
+
+/* Paragraph Styles */
+section p {
+    display: grid;
+    gap: 10px;
+    font-family: "Questrial", serif;
+    color: rgb(238, 238, 238);
+}
+
+/* link styles */
+section a {
+    color: blue
+}
+section a:hover {
+    color: red;
+}
+
+/* List Styles */
+ul {
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-template-rows: repeat(auto-fill, 1fr);
+    gap: 10px;
+    font-family: "Questrial", serif;
+    color: rgb(238, 238, 238);
+}
+
+dl {
+    display: grid;
+    grid-template-columns: auto auto;
+    gap: 10px;
+    font-family: "Questrial", serif;
+    color: rgb(238, 238, 238);
+}
+
+dl dt{}
+dl dd{}
+
+/* Project Section */
+.three-col {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    gap: 20px;
+}
+
+.card {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    border: 1px solid rgb(238, 238, 238);
+    padding: 15px;
+    border-radius: 20px;
+}
+
+.card img {
+    width: 250px;
+    height: 200px;
+}
+
+.card h3 {
+    display: flex;
+    justify-content: center;
+    font-family: "Questrial", serif;
+    color: rgb(238, 238, 238);
+}
+
+/* Contact Page Styles */
+.one-col {
+    font-family: "Questrial", serif;
+    display: flex;
+    flex-direction: column;
+    align-items: justify;
+    gap: 20px;
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 20px;
+    background-color: rgb(238, 238, 238);
+    border-radius: 20px;
+    box-shadow: rgba(0, 0, 0, 0.19) 0px 10px 20px, rgba(0, 0, 0, 0.23) 0px 6px 6px;
+}
+
+.contact_section {
+    color:  rgb(238, 238, 238);
+    text-align: center;
+}
+
+form {}
+
+form input {
+    height: 40px;
+    width: 100%;
+}
+
+form textarea {
+    height: 100px;
+    width: 100%;
+}
+
+form input:focus, form textarea:focus {}
+
+form button {
+    height: 40px;
+    background-color: rgb(118, 171, 174);
+}
+
+form button:hover {}
