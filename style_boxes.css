@@ -21,11 +21,12 @@ nav p, nav a {
 }
 
 nav a {
-    color: blue
+    text-decoration: none;
+    color: rgb(2, 26, 27);
 }
 
 nav a:hover {
-    color: red;
+    color:  rgb(12, 223, 230);
 }
 
 /* Footer Styles */
@@ -42,11 +43,12 @@ footer {
 }
 
 footer a {
-    color: blue
+    text-decoration: none;
+    color: rgb(2, 26, 27);
 }
 
 footer a:hover {
-    color: red;
+    color:  rgb(12, 223, 230);
 }
 
 /* Splash Section */
@@ -77,18 +79,22 @@ footer a:hover {
 
 /* Horizontal Rules */
 hr {
-    border-width: 1px;
-    border-style: solid;
-    border-color: rgb(238, 238, 238);
-    margin: 10px;
+    border: none;
+    height: 1px;
+    background-color:  rgb(118, 171, 174);
+    margin: 30px 10px;
 }
 
 /* Sections */
 section {
-    border: 1px solid rgb(238, 238, 238);
+    border: 2px solid rgb(238, 238, 238);
     border-radius: 20px;
     padding: 30px;
     margin: 10px;
+}
+
+section:hover {
+    border-color: rgb(118, 171, 174);
 }
 
 /* Section Headings */
@@ -109,10 +115,12 @@ section p {
 
 /* link styles */
 section a {
-    color: blue
+    text-decoration: none;
+    color:  rgb(12, 223, 230);
 }
+
 section a:hover {
-    color: red;
+    color:  rgb(7, 138, 143);
 }
 
 /* List Styles */
@@ -139,7 +147,7 @@ dl dd{}
 /* Project Section */
 .three-col {
     display: grid;
-    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
     gap: 20px;
 }
 
@@ -151,6 +159,10 @@ dl dd{}
     border: 1px solid rgb(238, 238, 238);
     padding: 15px;
     border-radius: 20px;
+}
+
+.card:hover {
+    background-color: rgb(118, 171, 174);
 }
 
 .card img {
